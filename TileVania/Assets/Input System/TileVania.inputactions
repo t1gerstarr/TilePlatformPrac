@@ -34,12 +34,12 @@
                 },
                 {
                     "name": "Jump",
-                    "type": "Button",
+                    "type": "Value",
                     "id": "9d09638b-f573-4470-9a62-bc8ab7f7a930",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": false
+                    "initialStateCheck": true
                 }
             ],
             "bindings": [
@@ -265,22 +265,11 @@
                 },
                 {
                     "name": "",
-                    "id": "3db88059-e3b3-4c68-9ffb-c07f6c921338",
+                    "id": "743210f5-8cbb-4e57-8976-9bcff3c7bd29",
                     "path": "<Keyboard>/space",
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard&Mouse",
-                    "action": "Jump",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "79ffcc7e-c0e4-4f94-a0f2-d00e45a2841c",
-                    "path": "<Gamepad>/buttonSouth",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Gamepad",
                     "action": "Jump",
                     "isComposite": false,
                     "isPartOfComposite": false
