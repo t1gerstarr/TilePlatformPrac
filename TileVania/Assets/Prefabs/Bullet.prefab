@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5677680311994957121}
   - component: {fileID: 3730573782638457993}
   - component: {fileID: -9140294508596475215}
-  - component: {fileID: 7233049611147977954}
+  - component: {fileID: 8126827990277349132}
   m_Layer: 0
   m_Name: Bullet
   m_TagString: Untagged
@@ -146,10 +146,10 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0018345555, y: 0.11526702}
-  m_Size: {x: 0.48237473, y: 0.16508378}
+  m_Offset: {x: 0.0074546183, y: 0.11470436}
+  m_Size: {x: 0.45315826, y: 0.19348602}
   m_Direction: 1
---- !u!114 &7233049611147977954
+--- !u!114 &8126827990277349132
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

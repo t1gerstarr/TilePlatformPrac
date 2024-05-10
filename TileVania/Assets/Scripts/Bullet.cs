@@ -18,19 +18,16 @@ public class Bullet : MonoBehaviour
 
     void Update()
     {
-        myRigidbody.velocity = new Vector2 (xSpeed, 0f);
+        myRigidbody.velocity = new Vector2(xSpeed, 0f);
     }
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("Collision detected with: " + other.gameObject.name);
-
-        if(other.CompareTag("Enemy"))
+        if(other.tag == "Enemy")
         {
-            Debug.Log("Enemy hit! Destroying enemy.");
+            Debug.Log("Enemy here!");
             Destroy(other.gameObject);
         }
         Destroy(gameObject);
     }
-
 }
